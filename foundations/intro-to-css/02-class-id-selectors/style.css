@@ -1,0 +1,19 @@
+.same{
+    background-color: #ffc0cb;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#blu{
+    color: #0000ff;
+    font-size: 36px;
+}
+
+.same.special{
+    font-size: 24px;
+}
+
+#green{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #82fda7;
+}
