@@ -4,6 +4,11 @@ html, body {
   height: 100%;
 }
 
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -66,4 +71,35 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/*  */
+
+.close-button{
+  flex-shrink: 0;
+}
+
+.int{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.text{
+  margin-bottom: 15px;
+}
+
+.icon{
+  flex-shrink: 0;
+}
+
+.modal{
+  display: flex;
+  padding: 25px;
+  gap: 15px;
+}
+
+.header{
+  font-size: 20px;
 }
